@@ -1,3 +1,4 @@
-const Cat = require('./Cat')
+const Cat = require('./Cat');
+const Tag = require('./Tag');
 
-module.exports={Cat}
+module.exports={ Cat, Tag };

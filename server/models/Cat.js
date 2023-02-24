@@ -55,7 +55,7 @@ const catSchema = new Schema(
         tags:[
             {
                 type: Schema.Types.ObjectId,
-                ref: 'Class'
+                ref: 'Tag'
             }
         ]
     }
